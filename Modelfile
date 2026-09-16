@@ -1,0 +1,4 @@
+# Local Ollama runtime used by Juicy the Smart Assistant
+# (see config/default.yml application.chatBot.model / llmApiUrl).
+FROM gemma4:e4b
+PARAMETER temperature 0.7
